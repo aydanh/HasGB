@@ -28,12 +28,22 @@ to start the emulator execute
 
     /path/to/HasGB /path/to/gb-or-gbc-file
 
+controls:
+
+- A: Z
+- B: X
+- Start: Enter
+- Select: LShift
+- D-pad: Arrows
+- Reset: Tab
+- Exit: Esc
+
 ## **todo:**
 
 - sound implementation
 - add an application menu
 - start games through application menu
 - save and load states
-- options for framerate etc
+- options for framerate, keybindings etc
 - implementing upscaling algorithms
 - compatibility increase
